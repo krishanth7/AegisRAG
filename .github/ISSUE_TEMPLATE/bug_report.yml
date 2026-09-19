@@ -1,0 +1,19 @@
+name: Bug report
+description: Report a reproducible defect
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: Do not attach private reports, credentials, or personal data.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Reproduction
+    validations:
+      required: true
